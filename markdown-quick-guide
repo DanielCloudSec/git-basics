@@ -1,0 +1,38 @@
+---
+
+## 📘 Markdown Quick Guide
+
+Use this cheat sheet to help write or edit this README or any `.md` file in the repo.
+
+### ✍️ Basic Formatting
+
+| Format         | Markdown Syntax            | Example Output         |
+|----------------|----------------------------|------------------------|
+| Bold           | `**bold**`                 | **bold**               |
+| Italic         | `*italic*`                 | *italic*               |
+| Strikethrough  | `~~strikethrough~~`        | ~~strikethrough~~      |
+| Inline Code    | `` `code` ``               | `code`                 |
+| Headings       | `# H1` to `###### H6`      | # H1 → ###### H6       |
+| Link           | `[text](url)`              | [Google](https://google.com) |
+| Image          | `![alt](image.png)`        | ![alt](docs/screenshot.png) |
+| Lists (ul)     | `- item` or `* item`        | - item                 |
+| Lists (ol)     | `1. item`                  | 1. item                |
+| Blockquote     | `> quote`                  | > quote                |
+| Task List      | `- [x] Task`               | - [x] Task             |
+| Code Block     | \`\`\`language\ncode\n\`\`\` | See example below      |
+
+### 🧪 Code Block Example
+
+Use triple backticks (```) to write multi-line code or show raw Markdown:
+
+<pre><code>```
+**This will show bold, not make it bold**
+
+# Header 1
+
+- Bullet list item
+```</code></pre>
+
+### 🎉 Emojis
+
+Use colons around emoji names:
