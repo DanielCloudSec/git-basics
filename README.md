@@ -1,21 +1,20 @@
 # git-basics
 Github markdown basics
 
-# 🧩 HEADERS
-```# H1 - Project Title
-## H2 - Section
-### H3 - Subsection
-#### H4 - Small heading
-```
+## 🧩 HEADERS
+`# H1 - Project Title`
+`## H2 - Section`
+`### H3 - Subsection`
+`#### H4 - Small heading`
 
-# ✍️ TEXT FORMATTING
+## ✍️ TEXT FORMATTING
 `**bold**
 _italic_
 ~~strikethrough~~
 ``inline code`
 `> blockquote`
 
-# 🔗 LINKS
+## 🔗 LINKS
 
 ## External link:
 `[Google](https://www.google.com)`
@@ -24,13 +23,13 @@ _italic_
 `[View LICENSE](LICENSE)
 [Go to Code Folder](src/)`
 
-# 📷 IMAGES
+## 📷 IMAGES
 `![Alt Text](path/to/image.png)`
 
-# Example with image in docs folder:
+## Example with image in docs folder:
 `![Screenshot](docs/screenshot.png)`
 
-# ✅ LISTS
+## ✅ LISTS
 
 ## Unordered list:
 `- Item 1`
@@ -45,7 +44,7 @@ _italic_
 `- [x] Done task`
 `- [ ] To do task`
 
-# 🧪 CODE BLOCKS
+## 🧪 CODE BLOCKS
 
 ## Inline:
 ```Here’s some `inline code`
@@ -59,7 +58,7 @@ _italic_
 `def hello():
     print("Hello, world!")`
 
-# 🎉 EMOJIS
+## 🎉 EMOJIS
 Use colon-wrapped emoji names:
 
 `:rocket: :fire: :tada: :warning: :bulb:`
@@ -67,6 +66,25 @@ Use colon-wrapped emoji names:
 Result: :rocket: :fire: :tada: :warning: :bulb:
 
 See full list here: https://github.com/ikatyang/emoji-cheat-sheet
+
+## 🔄 TABLES
+```
+| Column 1 | Column 2 |
+|----------|----------|
+| Item A   | Data A   |
+| Item B   | Data B   |
+```
+
+## 🔗 QUICK NAVIGATION WITH ANCHOR LINKS
+You can link to other sections in the same file:
+
+`
+[Go to Features](#features)`
+Rule: Convert section title to lowercase, remove punctuation, and replace spaces with `-`
+
+
+
+
 
 
 
